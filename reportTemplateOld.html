@@ -1,0 +1,68 @@
+<div class="page-container">Page of</div>
+
+<header>Service Report {{report_id}}</header>
+
+<div class="logo-container"><img style="height: 175px;" src="/Users/justin/Makethon/ElectroVOLT.png" /></div>
+
+<table class="technician-info-container">
+<tbody>
+    <tr>
+      <td>Electro Volt Technician</td>
+      <td>Jan Meyer</td>
+    </tr>
+    <tr>
+      <td>Functional Location Description</td>
+      <td>Ebersberg, Bayern</td>
+    </tr>
+    <tr>
+      <td>Code Word Equipment</td>
+      <td>US-2410011-01</td>
+    </tr>
+    <tr>
+      <td>Description Equipment Number</td>
+      <td>A3202847</td>
+    </tr>
+</tbody>
+</table>
+
+
+<table style="border: 1px solid;" class="line-items-container has-border">
+    <tbody>
+    <tr>
+    <td class="job-info">
+    <div>Subject Service</div>
+    <div>Order Customer</div>
+    <div>No. Operation</div>
+    <div>No. Notification</div>
+    <div>No. Type</div>
+    <div>Period</div>
+    </td>
+    <td class="job-info-values">
+    <div>{{subject_service}}</div>
+    <div>{{customer_id}}</div>
+    <div>{{operation_id}}</div>
+    <div>{{notification_id}}</div>
+    <div>{{job_type}}</div>
+    <div>{{start_date}} - {{end_date}}</div>
+    </td>
+    <td></td>
+    </tr>
+    </tbody>
+</table>
+<p>
+    <div class="page-value">1 / 3</div>
+    <div class="page-label">Page</div>
+    <div class="date-value">3.3.2023</div>
+    <div class="date-label">Date</div>
+</p>
+
+<h1>Description of Problem / Maintenance / Inspection</h1>
+
+<div class="footer">
+<div class="footer-info">{{company_name}}</div>
+<div class="footer-info">{{company_address_street}}</div>
+<div class="footer-info">{{company_address_postal_code}} {{company_address_city}}</div>
+<div class="footer-info">{{company_address_country}}</div>
+<div class="footer-info">Email {{company_email}}</div>
+<div class="footer-info">Web {{company_weblink}}</div>
+</div>
